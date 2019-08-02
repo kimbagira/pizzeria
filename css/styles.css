@@ -1,0 +1,29 @@
+
+.main{
+  text-align: center;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  background-image: url("http://sbpizzapie.com/images/background.jpg");
+
+}
+.first{
+  text-align: center;
+}
+ /* .one{ 
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding-top: 3%;
+} */
+.second{
+  text-align: center;
+  margin-right: 5%;
+}
+.three{
+  margin-top: 5%;
+  margin-right: 20%;
+}
+/* #hide{ */
+/* display: none;
+} */
