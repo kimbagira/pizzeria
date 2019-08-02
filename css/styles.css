@@ -9,21 +9,13 @@
 }
 .first{
   text-align: center;
+  margin-top:5%; 
 }
- /* .one{ 
-  display:flex;
-  flex-direction:row;
-  justify-content: space-between;
-  padding-top: 3%;
-} */
 .second{
   text-align: center;
-  margin-right: 5%;
+  margin-top:5%; 
 }
 .three{
-  margin-top: 5%;
+  margin-top: 10%;
   margin-right: 20%;
 }
-/* #hide{ */
-/* display: none;
-} */
