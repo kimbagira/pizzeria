@@ -1,10 +1,14 @@
-
 .main{
+  background-image: url("http://sbpizzapie.com/images/background.jpg");
+}
+#zero{
+  text-align: center;
+}
+.main1{
   text-align: center;
   display:flex;
   flex-direction:row;
   justify-content: space-between;
-  background-image: url("http://sbpizzapie.com/images/background.jpg");
 
 }
 .first{
@@ -18,4 +22,7 @@
 .three{
   margin-top: 10%;
   margin-right: 20%;
+}
+#get-pizza{
+  display: none;
 }

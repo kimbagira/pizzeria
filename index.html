@@ -7,13 +7,12 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"
       integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
       crossorigin="anonymous"></script>
-    <script src="js/scrips.js"></script>
+    <script src="js/scripts.js"></script>
   </head>
   <body>
     <div class="main">
-     <div id="zero">
-      <h1>pizzeria</h1>
-     </div>
+      <h1 id="zero">pizzeria</h1>
+    <div class="main1">
     <div class="first">
       <h1>size</h1>
     <div class="one">
@@ -54,46 +53,71 @@
     </div>
     </div>
     <div class="three">
-      <form >
-        <p>enter the size you want</p>
-        <select id="hide">
-         <option disabled selected>size</option>
-          <option>small</option>
-          <option>medium</option>
-          <option>large</option>
-        </select>
-        </p>
+     <form >
+      <p>enter the size you want</p>
+       <select id="hide">
+        <option disabled selected>size</option>
+        <option id="size1">small</option>
+        <option id="size2">medium</option>
+        <option id="size3">large</option>
+       </select>
+      </p>
 
-          <p>enter the crust you want</p>
-          <select id="hide1">
-              <option disabled selected>crust</option>
-              <option>crispy</option>
-              <option>stuffed</option>
-              <option>gluten free</option>
-            </select>
+      <p>enter the crust you want</p>
+       <select id="hide1">
+        <option disabled selected>crust</option>
+        <option id="crust1">crispy</option>
+        <option id="crust2">stuffed</option>
+        <option id="crust3">gluten free</option>
+       </select>
         
-          <p>enter toppings you want</p>
-          <select id="hide2">
-              <option disabled selected>toppings</option>
-              <option>pepperont</option>
-              <option>mushrooms</option>
-              <option>onions</option>
-              <option>sausage</option>
-              <option>bacons</option>
-              <option>extra cheese</option>
-              <option>black olives</option>
-              <option>green peppers</option>
-              <option>pineaple</option>
-            </select>
+      <p>enter toppings you want</p>
+       <select id="hide2">
+        <option disabled selected>toppings</option>
+        <option id="topping1">pepperont</option>
+        <option id="topping2">mushrooms</option>
+        <option id="topping3">onions</option>
+        <option id="topping4">sausage</option>
+        <option id="topping5">bacons</option>
+        <option id="topping6" >extra cheese</option>
+        <option id="topping7" >black olives</option>
+        <option id="topping8">green peppers</option>
+        <option id="topping9" >pineaple</option>
+       </select>
       
-          <p>enter the quantity</p>
-          <input type="quantity" name="quantity" value=""><br> 
-          <p>then do your order</p>
-          <input type="button" value="order">
-          <p>checkout the amount charged</p>
-          <input type="button" value="checkout">
+      <p>enter the quantity</p>
+      <input id="hide3" type="quantity" name="quantity" value=""><br> 
+
+      <p>Delivery</p>
+          <form>
+          <label for="yes">Yes</label>
+            <input  id="delivery1" type="radio" name="yes" class="yes" value="yes">
+          <label for="no">No</label>
+              <input  id="delivery2" type="radio" name="no" class="no" value="no">
           </form>
+        <p>then do your order</p>
+         <input type="button" value="order">
+
+
+         <div class="pizzeria">
+            <div id="get-pizza">
+             <h2>you have ordered</h2>
+              <p>pizza-size:<em class="pizza-size"></em></p>
+              <p>pizza-crust:<em class="pizza-crust"></em></p>
+              <p>pizza-toppings:<em class="pizza-toppings"></em></p>
+              <p>pizza-quantity:<em class="pizza-quantity"></em></p>
+            </div>
+            </div>  
+
+
+        <p>checkout the amount charged</p>
+         <button>checkout</button>
+      </form>
+<ul id="ordeone">
+  <li></li>
+</ul>
+</div>
     </div>
-    </div>
+  </div>
   </body>
 </html>
