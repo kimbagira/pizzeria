@@ -53,7 +53,7 @@
     </div>
     </div>
     <div class="three">
-     <form >
+     <form id="pizza">
       <p>enter the size you want</p>
        <select id="hide">
         <option disabled selected>size</option>
@@ -73,7 +73,7 @@
        <br>
        <br>
         
-      <p>enter toppings you want</p>
+      <!-- <p>enter toppings you want</p>
        <select id="hide2">
         <option disabled selected>toppings</option>
         <option id="topping1">pepperont</option>
@@ -85,20 +85,36 @@
         <option id="topping7" >black olives</option>
         <option id="topping8">green peppers</option>
         <option id="topping9" >pineaple</option>
-       </select>
+       </select> -->
+
+      
+        <p>toppings</p>
+        <input id="topping1" type="checkbox" name="toppings" value="pepperont">pepperont
+        <input id="topping2" type="checkbox" name="toppings" value="mushrooms">mushrooms
+        <input id="topping3" type="checkbox" name="toppings" value="onions">onions
+        <input id="topping4" type="checkbox" name="toppings" value="sausage">sausage
+        <input id="topping5" type="checkbox" name="toppings" value="bacons">bacons
+        <input id="topping6" type="checkbox" name="toppings" value="extra-cheese">extra cheese
+        <input id="topping7" type="checkbox" name="toppings" value="black-olives">black olives
+        <input id="topping8" type="checkbox" name="toppings" value="green-peppers">green peppers
+        <input id="topping9" type="checkbox" name="toppings" value="pineaple">pineaple
+
+
+
+
       <br>
       <br>
       <p>enter the quantity</p>
       <input id="hide3" type="quantity" name="quantity" value=""><br> 
       <br>
       <br>
-           <form>
+           
            <select>
             <option disabled selected >delivery</option>
             <option id="delivery1"value="yes">yes</option>
             <option id="delivery1" value="no">no</option>
           </select>
-        </form>
+      
 <br>
 <br>
 
@@ -111,9 +127,10 @@
               <p>pizza-toppings:<em class="pizza-toppings"></em></p>
               <p>pizza-quantity:<em class="pizza-quantity"></em></p>
               <p>pizza-delivery:<em class="pizza-delivery"></em></p>
+              <p>pizza-top:<em class="pizza-top"></em></p>
             </div>
             </div>  
-         <button>checkout</button>
+            <button type="submit" class="btn">checkout</button>
       </form>
 <ul id="orderone">
 <li></li>
