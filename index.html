@@ -70,6 +70,8 @@
         <option id="crust2">stuffed</option>
         <option id="crust3">gluten free</option>
        </select>
+       <br>
+       <br>
         
       <p>enter toppings you want</p>
        <select id="hide2">
@@ -84,17 +86,21 @@
         <option id="topping8">green peppers</option>
         <option id="topping9" >pineaple</option>
        </select>
-      
+      <br>
+      <br>
       <p>enter the quantity</p>
       <input id="hide3" type="quantity" name="quantity" value=""><br> 
-
-      <p>Delivery</p>
-          <form>
-          <label for="yes">Yes</label>
-            <input  id="delivery1" type="radio" name="yes" class="yes" value="yes">
-          <label for="no">No</label>
-              <input  id="delivery2" type="radio" name="no" class="no" value="no">
-          </form>
+      <br>
+      <br>
+           <form>
+           <select>
+            <option disabled selected >delivery</option>
+            <option id="delivery1"value="yes">yes</option>
+            <option id="delivery1" value="no">no</option>
+          </select>
+        </form>
+<br>
+<br>
 
 
          <div class="pizzeria">
@@ -107,11 +113,10 @@
               <p>pizza-delivery:<em class="pizza-delivery"></em></p>
             </div>
             </div>  
-         <p>checkout the amount charged</p>
          <button>checkout</button>
       </form>
 <ul id="orderone">
-
+<li></li>
 </ul>
 </div>
     </div>
