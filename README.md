@@ -18,3 +18,7 @@ See a checkout button that when clicked shows the total amount charged for the o
 SETUP/REQUIREMENTS
 
 you should clone to get my codes
+
+BDD
+behaviour
+you first go to the webpage, you read the whole page to know more about it, do what you are required to do.
