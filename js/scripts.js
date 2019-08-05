@@ -38,7 +38,7 @@ for(var a=0; a<thechoosentoppings.length; a++){
  }
  else if (thechoosentoppings[a]==="onions"){
   additiontoppings +=500
-  console.log(additiontoppings)will be delivered at
+  console.log(additiontoppings)
 }
 else if (thechoosentoppings[a]==="sausage"){
   additiontoppings +=1000
@@ -88,11 +88,11 @@ if($('#hide3').val()){
     $(".pizza-quantity").text(newOrder.quantityofpizza);
 
    if($('#delivery').val() === "2000frw"){
-     $(".pizza-delivery").text("The delivery is cost" +$('#delivery').val());
+     $(".pizza-delivery").text("the delivery charge " +$('#delivery').val());
   
     var seelocation=prompt("where is your lovation:");
-
-    alert("our order will be delivered to " + seelocation);
+    
+    alert("will be delivered at " + seelocation  +  " the delivery charge 2000frw");
   }
     else{
        $(".pizza-delivery").text("you haven't requested any delivery option");
