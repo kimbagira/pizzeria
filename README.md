@@ -15,4 +15,4 @@ Have an option to have the pizza delivered or not.  If delivered you want to be 
 If you want your pizza to be delivered, you will be be prompted to enter where the delivery should be made and an alert saying '' your order will be delivered to your location"
 See a checkout button that when clicked shows the total amount charged for the orders.
 
-w
+
