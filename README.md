@@ -22,3 +22,13 @@ you should clone to get my codes
 BDD
 behaviour
 you first go to the webpage, you read the whole page to know more about it, do what you are required to do.
+
+inputs examples
+
+size,crust,toppings,quantity
+
+outputs
+*a prompt to enter your location
+*an alert telling you that the delivery will be done and the charger to that
+
+
