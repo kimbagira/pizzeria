@@ -17,3 +17,4 @@ See a checkout button that when clicked shows the total amount charged for the o
 
 SETUP/REQUIREMENTS
 
+you should clone to get my codes
