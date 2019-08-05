@@ -39,4 +39,5 @@ no bugs
 
 TECHNOLOGIES USED
 
+i used HTML,CSS and JAVASCRIPT
 
