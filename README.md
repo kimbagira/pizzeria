@@ -34,3 +34,5 @@ outputs
 LINK OF YOUR REPOSITORY
 https://github.com/kimbagira/pizzeria
 
+BUGS
+
