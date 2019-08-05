@@ -16,7 +16,6 @@ If you want your pizza to be delivered, you will be be prompted to enter where t
 See a checkout button that when clicked shows the total amount charged for the orders.
 
 SETUP/REQUIREMENTS
-
 you should clone to get my codes
 
 BDD
@@ -24,7 +23,6 @@ behaviour
 you first go to the webpage, you read the whole page to know more about it, do what you are required to do.
 
 inputs examples
-
 size,crust,toppings,quantity
 
 outputs
@@ -38,6 +36,8 @@ BUGS
 no bugs
 
 TECHNOLOGIES USED
-
 i used HTML,CSS and JAVASCRIPT
+
+SUPPORT AND CONTACT DETAILS
+
 
