@@ -1,123 +1,118 @@
 <!DOCTYPE html>
-<html>
+ <html>
   <head>
-    <title>pizzeria</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="css/styles.css" rel="stylesheet" type="text/css" />
-    <script src="https://code.jquery.com/jquery-3.4.1.js"
+   <title>pizzeria</title>
+   <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+   <link href="css/styles.css" rel="stylesheet" type="text/css" />
+   <script src="https://code.jquery.com/jquery-3.4.1.js"
       integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
       crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+   <script src="js/scripts.js"></script>
   </head>
   <body>
-    <div class="main">
-      <h1 id="zero">pizzeria</h1>
-    <div class="main1">
-    <div class="first">
-      <h1>size</h1>
-    <div class="one">
-     <div class="one1">
-       <img src="images/smalpizza.jpg"width="70%" height="70%"">
-       <p><strong>small size</strong></p>
-     </div>   
-     <div class="one2">
-       <img src="images/pizza-tex-mex.jpg"width="70%" height="70%">
-       <p><strong>medium size</strong></p>
-      </div> 
+   <div class="main">
+    <h1 id="zero">pizzeria</h1>
+   <div class="main1">
+   <div class="first">
+    <h1>size</h1>
+   <div class="one">
+   <div class="one1">
+    <img src="images/smalpizza.jpg"width="70%" height="70%"">
+     <p><strong>small size</strong></p>
+   </div>   
+   <div class="one2">
+    <img src="images/pizza-tex-mex.jpg"width="70%" height="70%">
+     <p><strong>medium size</strong></p>
+   </div> 
       
-      <div class="one3">
-          <img src="images/largepizza.jpg"width="70%" height="70%">
-          <p><strong>large size</strong></p>
-      </div>    
-    </div>
-    </div>
+    <div class="one3">
+     <img src="images/largepizza.jpg"width="70%" height="70%">
+      <p><strong>large size</strong></p>
+    </div>    
+   </div>
+   </div>
     
 
-    <div class="second">
-      <h1>crust</h1>
-    <div class="two">
-     <div class="two1">
-      <img src="images/crispy pizza.jpg"width="40%" height="25%">
-      <p><strong>crispy pizza</strong></p>
-     </div>
-
-    <div class="two2">
-     <img src="images/stuffed pizza.jpg"width="40%" height="25%">
-     <p><strong>stuffed pizza</strong></p>
-    </div>
-        
-    <div class="two3">
-     <img src="images/gluten free.jpg"width="40%" height="25%">
-     <p><strong>gluten free pizza</strong></p>
-    </div>
-    </div>
-    </div>
-    <div class="three">
-     <form id="pizza">
-      <p>enter the size you want</p>
-       <select id="hide">
-        <option disabled selected>size</option>
-        <option value="small, 1000frw">small</option>
-        <option value="medium,7000frw">medium</option>
-        <option value="large, 20000frw">large</option>
-       </select>
-      </p>
-
-      <p>enter the crust you want</p>
-       <select id="hide1">
-        <option disabled selected>crust</option>
-        <option value="crispy,7000frw">crispy</option>
-        <option value="stuffed,8000frw">stuffed</option>
-        <option value="gluten free,9000frw">gluten free</option>
-       </select>
-       <br>
-       <br>
-
-      <p>toppings</p>
-        <input id="topping1" type="checkbox" name="toppings" value="pepperont">pepperont
-        <input id="topping2" type="checkbox" name="toppings" value="mushrooms">mushrooms
-        <input id="topping3" type="checkbox" name="toppings" value="onions">onions
-        <input id="topping4" type="checkbox" name="toppings" value="sausage">sausage
-        <input id="topping5" type="checkbox" name="toppings" value="bacons">bacons
-        <input id="topping6" type="checkbox" name="toppings" value="extra-cheese">extra cheese
-        <input id="topping7" type="checkbox" name="toppings" value="black-olives">black olives
-        <input id="topping8" type="checkbox" name="toppings" value="green-peppers">green peppers
-        <input id="topping9" type="checkbox" name="toppings" value="pineaple">pineaple
-
-      <br>
-      <br>
-      <p>enter the quantity</p>
-      <input id="hide3" type="quantity" name="quantity" value=""><br> 
-      <br>
-      <br>
-           
-           <select id="delivery">
-            <option disabled selected >delivery</option>
-            <option value="2000frw">yes</option>
-            <option value="0">no</option>
-          </select>
-      
-<br>
-<br>
-
-<div class="pizzeria">
-            <div id="get-pizza">
-             <h2>you have ordered</h2>
-              <p>pizza-size:<em class="pizza-size"></em></p>
-              <p>pizza-crust:<em class="pizza-crust"></em></p>
-              <p>pizza-toppings:<em class="pizza-toppings"></em></p>
-              <p>pizza-quantity:<em class="pizza-quantity"></em></p>
-              <p>pizza-delivery:<em class="pizza-delivery"></em></p>
-              <p>the total amount:</p>
-            </div>
-            </div>  
-            <button type="submit" class="btn">checkout</button>
-      </form>
-<ul id="orderone">
-<li></li>
-</ul>
-</div>
-    </div>
+   <div class="second">
+    <h1>crust</h1>
+  <div class="two">
+  <div class="two1">
+   <img src="images/crispy pizza.jpg"width="40%" height="25%">
+    <p><strong>crispy pizza</strong></p>
   </div>
-  </body>
+
+  <div class="two2">
+   <img src="images/stuffed pizza.jpg"width="40%" height="25%">
+   <p><strong>stuffed pizza</strong></p>
+  </div>
+        
+  <div class="two3">
+   <img src="images/gluten free.jpg"width="40%" height="25%">
+    <p><strong>gluten free pizza</strong></p>
+  </div>
+  </div>
+  </div>
+  <div class="three">
+   <form id="pizza">
+    <p>enter the size you want</p>
+     <select id="hide">
+      <option disabled selected>size</option>
+      <option value="small, 1000frw">small</option>
+      <option value="medium,7000frw">medium</option>
+      <option value="large, 20000frw">large</option>
+    </select>
+    </p>
+
+    <p>enter the crust you want</p>
+     <select id="hide1">
+      <option disabled selected>crust</option>
+      <option value="crispy,7000frw">crispy</option>
+      <option value="stuffed,8000frw">stuffed</option>
+      <option value="gluten free,9000frw">gluten free</option>
+     </select>
+     <br>
+     <br>
+
+    <p>toppings</p>
+     <input id="topping1" type="checkbox" name="toppings" value="pepperont">pepperont
+     <input id="topping2" type="checkbox" name="toppings" value="mushrooms">mushrooms
+     <input id="topping3" type="checkbox" name="toppings" value="onions">onions
+     <input id="topping4" type="checkbox" name="toppings" value="sausage">sausage
+     <input id="topping5" type="checkbox" name="toppings" value="bacons">bacons
+     <input id="topping6" type="checkbox" name="toppings" value="extra-cheese">extra cheese
+     <input id="topping7" type="checkbox" name="toppings" value="black-olives">black olives
+     <input id="topping8" type="checkbox" name="toppings" value="green-peppers">green peppers
+     <input id="topping9" type="checkbox" name="toppings" value="pineaple">pineaple
+     <br>
+     <br>
+     <p>enter the quantity</p>
+      <input id="hide3" type="quantity" name="quantity" value=""><br> 
+     <br>
+     <br>
+    <select id="delivery">
+     <option disabled selected >delivery</option>
+     <option value="2000frw">yes</option>
+     <option value="0">no</option>
+    </select>
+    <br>
+    <br>
+    <div class="pizzeria">
+    <div id="get-pizza">
+     <h2>you have ordered</h2>
+      <p>pizza-size:<em class="pizza-size"></em></p>
+      <p>pizza-crust:<em class="pizza-crust"></em></p>
+      <p>pizza-toppings:<em class="pizza-toppings"></em></p>
+      <p>pizza-quantity:<em class="pizza-quantity"></em></p>
+      <p>the total amount:</p>
+    </div>
+    </div>  
+     <button type="submit" class="btn">checkout</button>
+  </form>
+   <ul id="orderone">
+    <li></li>
+   </ul>
+  </div>
+</div>
+</div>
+</body>
 </html>
