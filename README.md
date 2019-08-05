@@ -41,5 +41,6 @@ i used HTML,CSS and JAVASCRIPT
 SUPPORT AND CONTACT DETAILS
 number:0786558890, email:sylviekimbagira@gmail.com
 
-LICENSE
+LICENSEhttps://github.com/kimbagira/pizzeria
+copyright(c)2019 kimbagira  sylvie
 
