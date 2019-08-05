@@ -15,10 +15,9 @@ $('form#pizza').submit(function(event){
   event.preventDefault();
 
 var inputtedsizeofpizza=$("#hide").val();
-    console.log(inputtedsizeofpizza)
-    
-    var inputtedcrustofpizza=$("#hide1").val();
-    console.log(inputtedcrustofpizza)
+  console.log(inputtedsizeofpizza)
+  var inputtedcrustofpizza=$("#hide1").val();
+  console.log(inputtedcrustofpizza)
 
   var thechoosentoppings=[];
   $('input[type=checkbox]:checked').each(function () {
@@ -83,11 +82,10 @@ if($('#hide3').val()){
     $("#get-pizza").show();
     $(".pizza-size").text(newOrder.sizeofpizza);
     $(".pizza-crust").text(newOrder.crustofpizza);
- 
     $(".pizza-toppings").text(newOrder.toppingsofpizza + 'frw');
     $(".pizza-quantity").text(newOrder.quantityofpizza);
 
-   if($('#delivery').val() === "2000frw"){
+  if($('#delivery').val() === "2000frw"){
      $(".pizza-delivery").text("the delivery charge " +$('#delivery').val());
   
     var seelocation=prompt("where is your lovation:");
