@@ -12,7 +12,6 @@ Order.prototype.allInformation=function(){
 
 //user interface Logic
 $(document).ready(function(){
-
 $('form#pizza').submit(function(event){
   event.preventDefault();
     var newOrder;
@@ -43,61 +42,7 @@ $('form#pizza').submit(function(event){
       var inputtedcrustofpizza=$('#crust3').val() + " " + "price=9000frw";
       console.log(inputtedcrustofpizza)
     }
-
-  //  if($('#topping1').val()){
-  //     var inputtedtoppingsofpizza=$('#topping1').val() + " " + "price=500frw";
-  //       console.log(inputtedtoppingsofpizza)
-  //   }
-  //   else if($('#topping2').val()){
-  //     var iinputtedtoppingsofpizza=$('#topping2').val() + " " + "price=600frw";
-  //       console.log(inputtedtoppingsofpizza)
-  //   }
-  //   else if($('#topping3').val()){
-  //     var inputtedtoppingsofpizza=$('#topping3').val() + " " + "price=700frw";
-  //       console.log(inputtedtoppingsofpizza)
-  //   }
-  //   else if($('#topping4').val()){
-  //     var inputtedtoppingsofpizza=$('#topping4').val() + " " + "price=800frw";
-  //       console.log(inputtedtoppingsofpizza)
-  //   }
-  //   else if($('#topping3').val()){
-  //     var inputtedtoppingsofpizza=$('#topping3').val() + " " + "price=900frw";
-  //       console.log(inputtedtoppingsofpizza)
-  //   }
-  //   else if($('#topping4').val()){
-  //     var inputtedtoppingsofpizza=$('#topping4').val() + " " + "price=1000frw";
-  //       console.log(inputtedtoppingsofpizza)
-  //   }
-  //   else if($('#topping5').val()){
-  //       var inputtedtoppingsofpizza=$('#topping5').val() + " " + "price=1100frw";
-  //       console.log(inputtedtoppingsofpizza)
-  //   }
-   
-  //   else if($('#topping6').val()){
-  //     var inputtedtoppingsofpizza=$('#topping6').val() + " " + "price=1200frw";
-  //       console.log(inputtedtoppingsofpizza)
-  //   }
-  //   else if($('#topping7').val()){
-  //     var inputtedtoppingsofpizza=$('#topping7').val() + " " + "p
-    rice=1300frw";
-  //       console.log(inputtedtoppingsofpizza)
-  //   }
-  //   else if($('#topping8').val()){
-  //     var inputtedtoppingsofpizza=$('#topping8').val() + " " + "price=1400frw";
-  //       console.log(inputtedtoppingsofpizza)
-  //   }
-  //   else if($('#topping9').val()){
-  //     var inputtedtoppingsofpizza=$('#topping9').val() + " " + "price=1500frw";
-  //       console.log(inputtedtoppingsofpizza)
-  //   }
   var thechoosentoppings=[];
- 
-//   $('input[type=checkbox]').each(function () {
-//     if (this.checked) checkArray.push(this.id)
-// });
-  // $.each($("input[type=checkbox]:checked",function(){
-  //   thechoosentoppings.push($(this).val());
-  // }));
   $('input[type=checkbox]:checked').each(function () {
     thechoosentoppings.push($(this).val());
 });
@@ -123,17 +68,14 @@ else if (thechoosentoppings[a]==="sausage"){
   console.log(additiontoppings)
 }
 else if (thechoosentoppings[a]==="bacons"){
-    
   additiontoppings +=600
   console.log(additiontoppings)
 }
-else if (thechoosentoppings[a]==="extra-che
-    
+else if (thechoosentoppings[a]==="extra-cheese"){
   additiontoppings +=1000
   console.log(additiontoppings)
 }
-else if (thechoosentoppings[a]==="black-oli
-    
+else if (thechoosentoppings[a]==="black-olives"){
   additiontoppings +=800
   console.log(additiontoppings)
 }
@@ -149,36 +91,33 @@ else if (thechoosentoppings[a]==="green-peppers"){
 console.log(additiontoppings)
 return additiontoppings;
 }
+var inputtedquantityofpizza
+var inputteddeliveryofpizza = $('#delivery').val()
 toppings(thechoosentoppings)
 if($('#hide3').val()){
-      var inputtedquantityofpizza=$('#hide3').val();
+      inputtedquantityofpizza=$('#hide3').val();
         console.log(inputtedquantityofpizza)
     }
 
-    if($('#delivery1').val()){
-    var inputteddeliveryofpizza=$('#delivery1').val() + " " + "delivery charged=2000frw";
-        console.log(inputteddeliveryofpizza)
-    }
-    if($('#delivery2').val()){
-      var inputteddeliveryofpizza=$('#delivery2').val();
-          console.log(inputteddeliveryofpizza)
-      }
+    
       if($('#hide3').val()){
         console.log()
       }
     var newOrder = new Order(inputtedsizeofpizza,inputtedcrustofpizza,additiontoppings,inputtedquantityofpizza,inputteddeliveryofpizza);
     console.log(newOrder)
-    console.log(thechoosentoppings)
-    $('ul#orderone').append("<li><span>" + newOrder.allInformation() +"</span></li>");
-    $(".contact1").last().click(function(){
+    console.log($('#delivery').val())
     $("#get-pizza").show();
     $(".pizza-size").text(newOrder.sizeofpizza);
     $(".pizza-crust").text(newOrder.crustofpizza);
  
     $(".pizza-toppings").text(newOrder.toppingsofpizza + 'frw');
-    $(".pizza-quantity").text(newOrder.quantintyofpizza);
-    $(".pizza-delivery").text(newOrder.deliveryofpizza);
-  });
+    $(".pizza-quantity").text(newOrder.quantityofpizza);
+   if($('#delivery').val() === "2000"){
+     $(".pizza-delivery").text("The delivery is cost" +$('#delivery').val());
+    }
+    else{
+       $(".pizza-delivery").text("you haven't requested any delivery option");
+      }
   });
 });
  
