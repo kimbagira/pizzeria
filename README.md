@@ -37,3 +37,6 @@ https://github.com/kimbagira/pizzeria
 BUGS
 no bugs
 
+TECHNOLOGIES USED
+
+
